@@ -1,0 +1,19 @@
+package basic.ch04;
+
+public class IfElseTest {
+
+	public static void main(String[] args) {
+
+		int studentAge = 20;
+		
+		if(studentAge >= 20) {
+			System.out.println("고등학교를 졸업했습니다.");
+		} else {
+			System.out.println("학교를 다니고 있습니다.");
+		}
+		// if - else --> 둘 중 하나는 반드시 수행이 된다.
+		
+		
+	} // end of main
+
+} // end of class

@@ -5,14 +5,14 @@ public class StringBufferTest {
 	// 코드의 시작점 - (메인 작업자)
 	public static void main(String[] args) {
 
-		String str1 = new String("Hello");
-		String str2 = new String("World");
+		String str1 = new String("Hello"); // heap 객체 생성
+		String str2 = new String("World"); 
 
-		StringBuffer bufferStr = new StringBuffer("Hello");
+		StringBuffer bufferStr = new StringBuffer("Hello"); // StringBuffer 객체 생성
 		System.out.println(bufferStr);
 		System.out.println(System.identityHashCode(bufferStr)); // 원시 주소 값
 
-		bufferStr.append(str2);
+		bufferStr.append(str2); // bufferStr 변수에 str2 변수 더하기
 		System.out.println(bufferStr);
 		System.out.println(System.identityHashCode(bufferStr)); // 같은 주소값이 나오니 새로운 객체가 생성된 건 아니다.
 		

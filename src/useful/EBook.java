@@ -22,7 +22,6 @@ public class EBook {
 	public boolean equals(Object obj) {
 
 		if (obj instanceof EBook) {
-//			System.out.println("EBook 맞음");
 			// 1. EBook 클래스의 인스턴스가 맞다면
 			EBook tbook = (EBook) obj;
 			// 2. EBook 의 제목과 저자의 이름이 같다면 true를 반환 시켜라.
@@ -31,10 +30,7 @@ public class EBook {
 			} else {
 				return false;
 			}
-		} else {
-//			System.out.println("이상한 데이터 타입을 넣지 마세요.");
 		}
-
 		return false;
 	}
 

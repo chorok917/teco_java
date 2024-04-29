@@ -29,5 +29,9 @@ public final class Book extends Object {
 		
 		System.out.println("----------------");
 		
+		String str1 = new String("안녕");
+		System.out.println(str1);
+		
+		
 	}
 }
